@@ -1,0 +1,204 @@
+.wrapper {
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  width: 100vw;
+}
+
+.title {
+  color: #32a852;
+  font-size: 40px;
+  font-family: Helvetica;
+}
+
+/**
+ * Tree
+ **/
+.tree-wrapper {
+  position: relative;
+  margin-top: 50px;
+  height: 380px;
+}
+
+.tree-shape-wrapper {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.top-tree {
+  border-bottom: 100px solid #32a852;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  height: 0;
+  width: 0;
+}
+
+.mid-tree {
+  border-bottom: 130px solid #32a852;
+  border-left: 80px solid transparent;
+  border-right: 80px solid transparent;
+  height: 0;
+  width: 0;
+
+  position: absolute;
+  top: 50px;
+}
+
+.bottom-tree {
+  border-bottom: 180px solid #32a852;
+  border-left: 130px solid transparent;
+  border-right: 130px solid transparent;
+  height: 0;
+  width: 0;
+  
+  position: absolute;
+  top: 100px;
+}
+
+.base-tree {
+  background-color: #784b04;
+  height: 100px;
+  width: 50px;
+
+  position: absolute;
+  top: 280px;
+}
+
+/**
+ * deco
+ */
+#star {
+  border-radius: 30px;
+  font-size: 50px;
+
+  position: absolute;
+  top: -10px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#ribbon {
+  font-size: 40px;
+  position: absolute;
+
+  top: 17px;
+  left: 0px;
+  right: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#snowman {
+  font-size: 30px;
+
+  position: absolute;
+  top: 51px;
+  left: 0px;
+  right: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#snowflake {
+  font-size: 45px;
+
+  position: absolute;
+  top: 170px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#sparkle {
+  font-size: 45px;
+
+  position: absolute;
+  top: 246px;
+  left: 0;
+  right: 133px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#santa-1 {
+  font-size: 45px;
+
+  position: absolute;
+  top: 80px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#santa-2 {
+  font-size: 40px;
+
+  position: absolute;
+  top: 147px;
+  left: 100px;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#santa-3 {
+  font-size: 45px;
+
+  position: absolute;
+  top: 147px;
+  left: 0;
+  right: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#santa-4 {
+  font-size: 35px;
+
+  position: absolute;
+  top: 224px;
+  left: 0;
+  right: 88px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#santa-5 {
+  font-size: 35px;
+
+  position: absolute;
+  top: 224px;
+  left: 88px;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#candle {
+  font-size: 35px;
+
+  position: absolute;
+  bottom: -13px;
+  left: 0;
+  right: 47px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#gift-box {
+  font-size: 50px;
+  position: absolute;
+  bottom: -17px;
+  left: 70px;
+  right: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
